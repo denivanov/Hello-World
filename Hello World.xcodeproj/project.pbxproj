@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B097048D1D7CCD54001B6E81 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B097048C1D7CCD54001B6E81 /* MainViewController.m */; };
 		B0E76F921D7CC0FA0050A333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E76F911D7CC0FA0050A333 /* main.m */; };
 		B0E76F951D7CC0FA0050A333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E76F941D7CC0FA0050A333 /* AppDelegate.m */; };
-		B0E76F981D7CC0FA0050A333 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E76F971D7CC0FA0050A333 /* ViewController.m */; };
-		B0E76F9B1D7CC0FA0050A333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E76F991D7CC0FA0050A333 /* Main.storyboard */; };
 		B0E76F9D1D7CC0FA0050A333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E76F9C1D7CC0FA0050A333 /* Assets.xcassets */; };
 		B0E76FA01D7CC0FA0050A333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E76F9E1D7CC0FA0050A333 /* LaunchScreen.storyboard */; };
 		B0E76FAB1D7CC0FA0050A333 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E76FAA1D7CC0FA0050A333 /* Hello_WorldTests.m */; };
@@ -35,13 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B097048B1D7CCD54001B6E81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		B097048C1D7CCD54001B6E81 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		B0E76F8D1D7CC0FA0050A333 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E76F911D7CC0FA0050A333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0E76F931D7CC0FA0050A333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0E76F941D7CC0FA0050A333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0E76F961D7CC0FA0050A333 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0E76F971D7CC0FA0050A333 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0E76F9A1D7CC0FA0050A333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0E76F9C1D7CC0FA0050A333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E76F9F1D7CC0FA0050A333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0E76FA11D7CC0FA0050A333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,11 +99,10 @@
 		B0E76F8F1D7CC0FA0050A333 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				B097048B1D7CCD54001B6E81 /* MainViewController.h */,
+				B097048C1D7CCD54001B6E81 /* MainViewController.m */,
 				B0E76F931D7CC0FA0050A333 /* AppDelegate.h */,
 				B0E76F941D7CC0FA0050A333 /* AppDelegate.m */,
-				B0E76F961D7CC0FA0050A333 /* ViewController.h */,
-				B0E76F971D7CC0FA0050A333 /* ViewController.m */,
-				B0E76F991D7CC0FA0050A333 /* Main.storyboard */,
 				B0E76F9C1D7CC0FA0050A333 /* Assets.xcassets */,
 				B0E76F9E1D7CC0FA0050A333 /* LaunchScreen.storyboard */,
 				B0E76FA11D7CC0FA0050A333 /* Info.plist */,
@@ -207,6 +204,7 @@
 				TargetAttributes = {
 					B0E76F8C1D7CC0FA0050A333 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9B69P76Y36;
 					};
 					B0E76FA51D7CC0FA0050A333 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,7 +243,6 @@
 			files = (
 				B0E76FA01D7CC0FA0050A333 /* LaunchScreen.storyboard in Resources */,
 				B0E76F9D1D7CC0FA0050A333 /* Assets.xcassets in Resources */,
-				B0E76F9B1D7CC0FA0050A333 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E76F981D7CC0FA0050A333 /* ViewController.m in Sources */,
 				B0E76F951D7CC0FA0050A333 /* AppDelegate.m in Sources */,
+				B097048D1D7CCD54001B6E81 /* MainViewController.m in Sources */,
 				B0E76F921D7CC0FA0050A333 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0E76F991D7CC0FA0050A333 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0E76F9A1D7CC0FA0050A333 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0E76F9E1D7CC0FA0050A333 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "denitza.Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "denitza.Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +493,7 @@
 				B0E76FBC1D7CC0FB0050A333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0E76FBD1D7CC0FB0050A333 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +502,7 @@
 				B0E76FBF1D7CC0FB0050A333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0E76FC01D7CC0FB0050A333 /* Build configuration list for PBXNativeTarget "Hello WorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +511,7 @@
 				B0E76FC21D7CC0FB0050A333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
